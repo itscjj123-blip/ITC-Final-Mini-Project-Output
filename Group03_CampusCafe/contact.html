@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact Rev Café about events, study group tables and collaborations.">
+  <title>Contact | Rev Café</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">Rev <span>Café</span></a>
+      <nav class="site-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="spaces.html">Spaces</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-title">
+      <div class="wrap">
+        <h1>Contact us</h1>
+        <p>Ask about an event, a study group booking or a collaboration. Fields marked with <span class="req">*</span> are required.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap contact-layout">
+        <form class="contact-form" action="https://formsubmit.co/cedruz.jay-z.james.biron@adamson.edu.ph" method="post">
+          <input type="hidden" name="_subject" value="New message from the Rev Café website">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="false">
+          <input class="hp" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <div class="field">
+            <label for="name">Your name <span class="req">*</span></label>
+            <input type="text" id="name" name="name" autocomplete="name" placeholder="Juan Dela Cruz" required>
+          </div>
+          <div class="field">
+            <label for="email">Email address <span class="req">*</span></label>
+            <input type="email" id="email" name="email" autocomplete="email" placeholder="you@school.edu.ph" required>
+          </div>
+          <div class="field">
+            <label for="topic">What is this about?</label>
+            <select id="topic" name="topic">
+              <option value="Event booking">Event booking</option>
+              <option value="Study group table">Study group table</option>
+              <option value="Car meet or Build of the Week">Car meet or Build of the Week</option>
+              <option value="Brand collaboration">Brand collaboration</option>
+              <option value="Feedback">Feedback</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="message">Your message</label>
+            <textarea id="message" name="message" placeholder="Tell us the date, group size and anything we should prepare."></textarea>
+          </div>
+          <div>
+            <button class="btn" type="submit">Send message</button>
+          </div>
+        </form>
+
+        <aside class="info-box" aria-label="Café details">
+          <h2>Visit us</h2>
+          <dl>
+            <dt>Where</dt>
+            <dd>Inside the university campus, two-storey building with outdoor seating.</dd>
+            <dt>Best for</dt>
+            <dd>Study sessions, group projects, car meets and gaming nights.</dd>
+            <dt>Slogan</dt>
+            <dd>Fuel Your Study. Drive Your Passion.</dd>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>Rev Café is a student concept for a campus café, made for our HTML5 final project.</p>
+      <p>Fuel Your Study. Drive Your Passion.</p>
+    </div>
+  </footer>
+</body>
+</html>
